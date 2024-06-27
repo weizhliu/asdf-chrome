@@ -1,9 +1,9 @@
 <div align="center">
 
-# asdf-chromedriver [![Build](https://github.com/schinckel/asdf-chromedriver/actions/workflows/build.yml/badge.svg)](https://github.com/schinckel/asdf-chromedriver/actions/workflows/build.yml) [![Lint](https://github.com/schinckel/asdf-chromedriver/actions/workflows/lint.yml/badge.svg)](https://github.com/schinckel/asdf-chromedriver/actions/workflows/lint.yml)
+# asdf-chrome [![Build](https://github.com/weizhliu/asdf-chrome/actions/workflows/build.yml/badge.svg)](https://github.com/weizhliu/asdf-chrome/actions/workflows/build.yml) [![Lint](https://github.com/weizhliu/asdf-chrome/actions/workflows/lint.yml/badge.svg)](https://github.com/weizhliu/asdf-chrome/actions/workflows/lint.yml)
 
 
-[chromedriver](https://chromedriver.chromium.org) plugin for the [asdf version manager](https://asdf-vm.com).
+[chrome](https://chrome.chromium.org) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -23,25 +23,25 @@
 Plugin:
 
 ```shell
-asdf plugin add chromedriver
+asdf plugin add chrome
 # or
-asdf plugin add chromedriver https://github.com/schinckel/asdf-chromedriver.git
+asdf plugin add chrome https://github.com/weizhliu/asdf-chrome.git
 ```
 
-chromedriver:
+chrome:
 
 ```shell
 # Show all installable versions
-asdf list-all chromedriver
+asdf list-all chrome
 
 # Install specific version
-asdf install chromedriver latest
+asdf install chrome latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global chromedriver latest
+asdf global chrome latest
 
-# Now chromedriver commands are available
-chromedriver --help
+# Now chrome commands are available
+chrome --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -51,8 +51,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/schinckel/asdf-chromedriver/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/weizhliu/asdf-chrome/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [Matthew Schinckel](https://github.com/schinckel/)
+See [LICENSE](LICENSE) © [Matthew weizhliu](https://github.com/weizhliu/)
